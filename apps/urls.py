@@ -2,5 +2,7 @@ from django.urls import path, include
 
 
 urlpatterns = [
-    path('', include('genericview.urls'))
+    # path('', include('viewset.urls')),
+    # path('', include('genericview.urls')),
+    path('', include('apiview.urls')),
 ]
